@@ -1,0 +1,69 @@
+{
+  "dataset_shape": [
+    319,
+    39
+  ],
+  "target": "Gallstone Status",
+  "positive_class": 0,
+  "selected_model": "Random Forest",
+  "cross_validation": {
+    "Logistic Regression": {
+      "accuracy": 0.7373,
+      "precision_0": 0.7154,
+      "recall_0": 0.8058,
+      "f1_0": 0.7568
+    },
+    "Random Forest": {
+      "accuracy": 0.7529,
+      "precision_0": 0.7491,
+      "recall_0": 0.7671,
+      "f1_0": 0.7573
+    }
+  },
+  "test_metrics": {
+    "accuracy": 0.78125,
+    "precision_0": 0.75,
+    "recall_0": 0.84375,
+    "f1_0": 0.7941176470588235
+  },
+  "features": [
+    "Age",
+    "Gender",
+    "Comorbidity",
+    "Coronary Artery Disease (CAD)",
+    "Hypothyroidism",
+    "Hyperlipidemia",
+    "Diabetes Mellitus (DM)",
+    "Height",
+    "Weight",
+    "Body Mass Index (BMI)",
+    "Total Body Water (TBW)",
+    "Extracellular Water (ECW)",
+    "Intracellular Water (ICW)",
+    "Extracellular Fluid/Total Body Water (ECF/TBW)",
+    "Total Body Fat Ratio (TBFR) (%)",
+    "Lean Mass (LM) (%)",
+    "Body Protein Content (Protein) (%)",
+    "Visceral Fat Rating (VFR)",
+    "Bone Mass (BM)",
+    "Muscle Mass (MM)",
+    "Obesity (%)",
+    "Total Fat Content (TFC)",
+    "Visceral Fat Area (VFA)",
+    "Visceral Muscle Area (VMA) (Kg)",
+    "Hepatic Fat Accumulation (HFA)",
+    "Glucose",
+    "Total Cholesterol (TC)",
+    "Low Density Lipoprotein (LDL)",
+    "High Density Lipoprotein (HDL)",
+    "Triglyceride",
+    "Aspartat Aminotransferaz (AST)",
+    "Alanin Aminotransferaz (ALT)",
+    "Alkaline Phosphatase (ALP)",
+    "Creatinine",
+    "Glomerular Filtration Rate (GFR)",
+    "C-Reactive Protein (CRP)",
+    "Hemoglobin (HGB)",
+    "Vitamin D"
+  ]
+}
